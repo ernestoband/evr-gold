@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ html{
     margin: auto;
 } */
 
-section{
+/* section{
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -51,4 +51,137 @@ header{
 
 .about{
     
+}  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
 }
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: gold;
+    font-size: 5rem;
+    padding: 1rem;
+    
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu img{
+    height: 5rem;
+    filter: invert(100%);
+    
+}
+
+header{
+    background-image: url(/resources/coffeeTestImage.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.about{
+    height: 100vh;
+}
+
+
+
+.work{
+    height: 100vh;
+    width: auto ;
+}
+
+.portrait{
+    background-image: url(/resources/portraitTest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fashion{
+    background-image: url(/resources/pugFashionTest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.automotive{
+    background-image: url(/resources/carTestImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event{
+    background-image: url(/resources/eventTest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial{
+    background-image: url(/resources/commercialTest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    background-color: black;
+    padding: 3rem;
+
+}
+
