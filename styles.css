@@ -68,7 +68,29 @@ html{
 
 body{
     background-color: black;
+    
 }
+section{
+    padding: 1rem 1rem 5rem 1rem ;
+    
+   
+   
+    
+}
+ a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: black;
+    padding: 2rem;
+   
+    border-radius: 10%;
+}
+
+
+
 
 h1{
     font-family: 'Roboto', sans-serif;
@@ -82,9 +104,9 @@ h1{
 p{
     font-family: 'Nunito', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
-    padding: 1rem;
+    line-height: 5rem;
 }
 
 .menu{
@@ -101,23 +123,41 @@ p{
 header{
     background-image: url(/resources/coffeeTestImage.jpg);
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 
     height: 100vh;
-    width: 100%;
+   
 }
 
 .about{
     height: 100vh;
+    display:inline-block;
 }
 
 
 
 .work{
     height: 100vh;
-    width: auto ;
+
 }
+/*   //IN CASE OF STYLE CHANGE. FLEX TWO COLUMN LAYOUT FOR WORK IMAGES
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+} */
+
+
 
 .portrait{
     background-image: url(/resources/portraitTest.jpg);
@@ -128,6 +168,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -140,6 +181,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .automotive{
@@ -175,13 +217,8 @@ header{
     align-items: center;
 }
 
-section a{
-    text-decoration: none;
-    color: gold;
-    font-family: 'Nunito', sans-serif;
-    font-size: 2rem;
-    background-color: black;
-    padding: 3rem;
-
+form{
+   height:100vh;
+   background-color: blanchedalmond;
 }
 
