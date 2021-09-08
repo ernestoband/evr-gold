@@ -1,0 +1,42 @@
+const nav = document.querySelector(".nav-links");
+const burger = document.querySelector(".burger");
+const links = nav.querySelectorAll("a");
+
+burger.addEventListener("click", () => {
+  nav.classList.toggle("nav-open");
+  burger.classList.toggle("toggle");
+});
+
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    nav.classList.toggle("nav-open");
+    burger.classList.toggle("toggle");
+  });
+});
+
+
+
+
+const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+
+  
+});
